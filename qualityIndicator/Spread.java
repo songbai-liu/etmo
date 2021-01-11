@@ -33,7 +33,7 @@ import java.util.Arrays;
  */
 public class Spread {
 
-	public static momfo.qualityIndicator.util.MetricsUtil utils_;// utils_ is
+	public static etmo.qualityIndicator.util.MetricsUtil utils_;// utils_ is
 																	// used to
 																	// access to
 	// the MetricsUtil funcionalities
@@ -42,7 +42,7 @@ public class Spread {
 	 * Constructor. Creates a new instance of a Spread object
 	 */
 	public Spread() {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 	} // Delta
 
 	/**
@@ -87,8 +87,8 @@ public class Spread {
 		normalizedParetoFront = utils_.getNormalizedFront(trueParetoFront, maximumValue, minimumValue);
 
 		// STEP 3. Sort normalizedFront and normalizedParetoFront;
-		Arrays.sort(normalizedFront, new momfo.qualityIndicator.util.LexicoGraphicalComparator());
-		Arrays.sort(normalizedParetoFront, new momfo.qualityIndicator.util.LexicoGraphicalComparator());
+		Arrays.sort(normalizedFront, new etmo.qualityIndicator.util.LexicoGraphicalComparator());
+		Arrays.sort(normalizedParetoFront, new etmo.qualityIndicator.util.LexicoGraphicalComparator());
 
 		int numberOfPoints = normalizedFront.length;
 		// int numberOfTruePoints = normalizedParetoFront.length;
