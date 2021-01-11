@@ -20,9 +20,9 @@
 
 package etmo.util.parallel;
 
-import momfo.core.Problem;
-import momfo.core.Solution;
-import momfo.util.Configuration;
+import etmo.core.Problem;
+import etmo.core.Solution;
+import etmo.util.Configuration;
 
 import java.util.ArrayList;
 import java.util.Collection;
