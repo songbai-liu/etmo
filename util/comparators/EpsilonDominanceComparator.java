@@ -23,7 +23,7 @@ package etmo.util.comparators;
 
 import java.util.Comparator;
 
-import momfo.core.Solution;
+import etmo.core.Solution;
 
 /**
  * This class implements a <code>Comparator</code> (a method for comparing
