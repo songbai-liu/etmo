@@ -13,4 +13,4 @@ To promote the research on ETMO, benchmark problems are of great importance to E
 
 The detail definitions of these 40 benchmark problems can be found in technical report, which can be downloaded in https://www.scholat.com/vpost.html?pid=160180, and all benchmark functions have been implemented in JAVA code.
 
-You can directly use the file CEC2021_Competition_ETMO.rar. Please unzip this file before you use it.
+Please unzip the file CEC2021_Competition_ETMO.rar before you use it, which contains other datas, e.g., the true Pareto front of the related problems.
