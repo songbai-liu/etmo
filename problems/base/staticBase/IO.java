@@ -12,7 +12,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import momfo.util.PseudoRandom;
+import etmo.util.PseudoRandom;
 
 public class IO {
 	
