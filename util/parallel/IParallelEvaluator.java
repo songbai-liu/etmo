@@ -22,8 +22,8 @@ package etmo.util.parallel;
 
 import java.util.List;
 
-import momfo.core.Problem;
-import momfo.core.Solution;
+import etmo.core.Problem;
+import etmo.core.Solution;
 
 /**
  * @author Antonio J. Nebro Interface representing classes for evaluating
