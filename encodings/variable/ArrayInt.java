@@ -170,8 +170,8 @@ public class ArrayInt extends Variable {
 			return array_[index];
 		else {
 			Configuration.logger_.severe(
-					momfo.encodings.variable.ArrayInt.class + ".getValue(): index value (" + index + ") invalid");
-			throw new JMException(momfo.encodings.variable.ArrayInt.class + ": index value (" + index + ") invalid");
+					etmo.encodings.variable.ArrayInt.class + ".getValue(): index value (" + index + ") invalid");
+			throw new JMException(etmo.encodings.variable.ArrayInt.class + ": index value (" + index + ") invalid");
 		} // if
 	} // getValue
 
@@ -188,8 +188,8 @@ public class ArrayInt extends Variable {
 			array_[index] = value;
 		else {
 			Configuration.logger_.severe(
-					momfo.encodings.variable.ArrayInt.class + ".setValue(): index value (" + index + ") invalid");
-			throw new JMException(momfo.encodings.variable.ArrayInt.class + ": index value (" + index + ") invalid");
+					etmo.encodings.variable.ArrayInt.class + ".setValue(): index value (" + index + ") invalid");
+			throw new JMException(etmo.encodings.variable.ArrayInt.class + ": index value (" + index + ") invalid");
 		} // else
 	} // setValue
 
@@ -205,9 +205,9 @@ public class ArrayInt extends Variable {
 			return lowerBounds_[index];
 		else {
 			Configuration.logger_.severe(
-					momfo.encodings.variable.ArrayInt.class + ".getLowerBound(): index value (" + index + ") invalid");
+					etmo.encodings.variable.ArrayInt.class + ".getLowerBound(): index value (" + index + ") invalid");
 			throw new JMException(
-					momfo.encodings.variable.ArrayInt.class + ".getLowerBound: index value (" + index + ") invalid");
+					etmo.encodings.variable.ArrayInt.class + ".getLowerBound: index value (" + index + ") invalid");
 		} // else
 	} // getLowerBound
 
@@ -223,9 +223,9 @@ public class ArrayInt extends Variable {
 			return upperBounds_[index];
 		else {
 			Configuration.logger_.severe(
-					momfo.encodings.variable.ArrayInt.class + ".getUpperBound(): index value (" + index + ") invalid");
+					etmo.encodings.variable.ArrayInt.class + ".getUpperBound(): index value (" + index + ") invalid");
 			throw new JMException(
-					momfo.encodings.variable.ArrayInt.class + ".getUpperBound: index value (" + index + ") invalid");
+					etmo.encodings.variable.ArrayInt.class + ".getUpperBound: index value (" + index + ") invalid");
 		} // else
 	} // getLowerBound
 
