@@ -30,7 +30,7 @@ import etmo.core.SolutionSet;
 
 public class R2 {
 
-	public momfo.qualityIndicator.util.MetricsUtil utils_;
+	public etmo.qualityIndicator.util.MetricsUtil utils_;
 	double[][] matrix_ = null;
 	double[][] lambda_ = null;
 	int nObj_ = 0;
@@ -40,7 +40,7 @@ public class R2 {
 	 * two objectives and 100 lambda vectors
 	 */
 	public R2() {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 
 		// by default it creates an R2 indicator for a two dimensions probllem
 		// and
@@ -61,7 +61,7 @@ public class R2 {
 	 * two objectives and N lambda vectors
 	 */
 	public R2(int nVectors) {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 
 		// by default it creates an R2 indicator for a two dimensions probllem
 		// and
@@ -82,7 +82,7 @@ public class R2 {
 	 * loads the weight vectors from the file fileName
 	 */
 	public R2(int nObj, String file) {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 		// A file is indicated, the weights are taken from there
 
 		// by default it creates an R2 indicator for a two dimensions probllem
