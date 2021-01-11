@@ -98,8 +98,8 @@ public class MOMFEA_main {
 				QualityIndicator indicator = new QualityIndicator(problemSet.get(i), pf);
 				if(resPopulation[i].size()==0)
 					continue;
-				resPopulation[i].printObjectivesToFile("MOMFEA_"+problemSet.getTask(i).get(0).getNumberOfObjectives()+"Obj_"+
-						problemSet.getTask(i).get(0).getName()+ "_" + problemSet.getTask(i).get(0).getNumberOfVariables() + "D_run"+t+".txt");
+				resPopulation[i].printObjectivesToFile("MOMFEA_"+problemSet.get(i).getNumberOfObjectives()+"Obj_"+
+						problemSet.get(i).getName()+ "_" + problemSet.get(i).getNumberOfVariables() + "D_run"+t+".txt");
 				igd =  indicator.getIGD(resPopulation[i]);
 				System.out.print(form.format(igd) + "\t" );
 				ave[i] += igd;
