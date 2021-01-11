@@ -33,13 +33,13 @@ package etmo.qualityIndicator;
  */
 public class Hypervolume {
 
-	public momfo.qualityIndicator.util.MetricsUtil utils_;
+	public etmo.qualityIndicator.util.MetricsUtil utils_;
 
 	/**
 	 * Constructor Creates a new instance of MultiDelta
 	 */
 	public Hypervolume() {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 	} // Hypervolume
 
 	/*
