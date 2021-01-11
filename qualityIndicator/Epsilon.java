@@ -46,7 +46,7 @@ public class Epsilon {
 	 */
 	int method_;
 	/* stores a reference to qualityIndicatorUtils */
-	public momfo.qualityIndicator.util.MetricsUtil utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+	public etmo.qualityIndicator.util.MetricsUtil utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 
 	/**
 	 * Returns the epsilon indicator.
