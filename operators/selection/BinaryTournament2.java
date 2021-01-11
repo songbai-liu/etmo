@@ -70,7 +70,7 @@ public class BinaryTournament2 extends Selection {
 		SolutionSet population = (SolutionSet) object;
 		if (index_ == 0) // Create the permutation
 		{
-			a_ = (new momfo.util.PermutationUtility()).intPermutation(population.size());
+			a_ = (new etmo.util.PermutationUtility()).intPermutation(population.size());
 		}
 
 		Solution solution1, solution2;
