@@ -35,7 +35,7 @@ import java.util.Arrays;
  */
 public class GeneralizedSpread {
 
-	public static momfo.qualityIndicator.util.MetricsUtil utils_; // MetricsUtil
+	public static etmo.qualityIndicator.util.MetricsUtil utils_; // MetricsUtil
 																	// provides
 																	// some
 	// utilities for implementing
@@ -45,7 +45,7 @@ public class GeneralizedSpread {
 	 * Constructor Creates a new instance of GeneralizedSpread
 	 */
 	public GeneralizedSpread() {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 	} // GeneralizedSpread
 
 	/**
@@ -95,7 +95,7 @@ public class GeneralizedSpread {
 		// STEP 3. Find extremal values
 		double[][] extremValues = new double[numberOfObjectives][numberOfObjectives];
 		for (int i = 0; i < numberOfObjectives; i++) {
-			Arrays.sort(normalizedParetoFront, new momfo.qualityIndicator.util.ValueComparator(i));
+			Arrays.sort(normalizedParetoFront, new etmo.qualityIndicator.util.ValueComparator(i));
 			System.arraycopy(normalizedParetoFront[normalizedParetoFront.length - 1], 0, extremValues[i], 0,
 					numberOfObjectives);
 		}
@@ -104,7 +104,7 @@ public class GeneralizedSpread {
 		int numberOfTruePoints = normalizedParetoFront.length;
 
 		// STEP 4. Sorts the normalized front
-		Arrays.sort(normalizedFront, new momfo.qualityIndicator.util.LexicoGraphicalComparator());
+		Arrays.sort(normalizedFront, new etmo.qualityIndicator.util.LexicoGraphicalComparator());
 
 		// STEP 5. Calculate the metric value. The value is 1.0 by default
 		if (utils_.distance(normalizedFront[0], normalizedFront[normalizedFront.length - 1]) == 0.0) {
