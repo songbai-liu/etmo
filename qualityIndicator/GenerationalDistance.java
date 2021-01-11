@@ -31,7 +31,7 @@ package etmo.qualityIndicator;
  * Comput. Eng., Air Force Inst. Technol. (1998)
  */
 public class GenerationalDistance {
-	public momfo.qualityIndicator.util.MetricsUtil utils_; // utils_ is used to
+	public etmo.qualityIndicator.util.MetricsUtil utils_; // utils_ is used to
 															// access to the
 	// MetricsUtil funcionalities
 
@@ -42,7 +42,7 @@ public class GenerationalDistance {
 	 * Constructor. Creates a new instance of the generational distance metric.
 	 */
 	public GenerationalDistance() {
-		utils_ = new momfo.qualityIndicator.util.MetricsUtil();
+		utils_ = new etmo.qualityIndicator.util.MetricsUtil();
 	} // GenerationalDistance
 
 	/**
