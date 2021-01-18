@@ -33,7 +33,11 @@ public class MOMFEA_main {
 		problemSet = ETMOF7.getProblem();
 		int taskNumber = problemSet.size();
 		System.out.println("taskNumber = "+taskNumber);
-		String pf = "PF/StaticPF/" + problemSet.get(0).getHType() + "_" + problemSet.get(0).getNumberOfObjectives() + "D.pf";
+		String[] pf = new String[taskNumber];
+		for(int i = 0; i < taskNumber; i++){
+		    pf[i] = "PF/StaticPF/" + problemSet.get(i).getHType() + "_" + problemSet.get(i).getNumberOfObjectives() + "D.pf";
+		}
+		//String pf = "PF/StaticPF/" + problemSet.get(0).getHType() + "_" + problemSet.get(0).getNumberOfObjectives() + "D.pf";
 		
 		algorithm = new MOMFEA(problemSet);
 		
@@ -95,7 +99,7 @@ public class MOMFEA_main {
 			double igd;
 			System.out.print(t + "\t");
 			for(int i=0;i<taskNumber;i++){
-				QualityIndicator indicator = new QualityIndicator(problemSet.get(i), pf);
+				QualityIndicator indicator = new QualityIndicator(problemSet.get(i), pf[i]);
 				if(resPopulation[i].size()==0)
 					continue;
 				resPopulation[i].printObjectivesToFile("MOMFEA_"+problemSet.get(i).getNumberOfObjectives()+"Obj_"+
