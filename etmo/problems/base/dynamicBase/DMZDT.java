@@ -179,7 +179,7 @@ public class DMZDT extends Problem {
 		if (htType_.equalsIgnoreCase("static"))
 			return 1.0;
 		else if (htType_.equalsIgnoreCase("dynamic_t1"))
-			return 0.75*Math.sin(0.5*Math.PI*t_);
+			return 1.25+0.75*Math.sin(0.5*Math.PI*t_);
 		else if (htType_.equalsIgnoreCase("dynamic_t2"))
 			return 1.5+Math.sin(0.5*Math.PI*t_);
 		else
