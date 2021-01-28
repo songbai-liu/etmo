@@ -46,7 +46,7 @@ public class ETMOF34 {
 	
 	public static ProblemSet getT2(int fc, int sc) throws IOException {
 		ProblemSet problemSet = new ProblemSet(1);
-		DMZDT prob = new DMZDT(51, 2, 0, 1, fc, sc);
+		DMZDT prob = new DMZDT(50, 2, 0, 1, fc, sc);
 		
 		//double[][] matrix = IO.readMatrixFromFile("MData/CEC2021/benchmark_34/matrix_1");
 		//prob.setRotationMatrix(matrix);
