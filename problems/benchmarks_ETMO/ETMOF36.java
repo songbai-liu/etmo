@@ -29,7 +29,7 @@ public class ETMOF36 {
 	
 	public static ProblemSet getT1(int fc, int sc) throws IOException {
 		ProblemSet problemSet = new ProblemSet(1);
-		DMLZ prob = new DMLZ(50,-1, 1, fc, sc);
+		DMLZ prob = new DMLZ(1024,-1, 1, fc, sc);
 		
 		prob.setGtType("dynamic_t1"); //The type of time-related function used to control the change of the PS
 		prob.setHt1Type("static"); //The type of time-related function used to control the change of the PF
@@ -45,7 +45,7 @@ public class ETMOF36 {
 	
 	public static ProblemSet getT2(int fc, int sc) throws IOException {
 		ProblemSet problemSet = new ProblemSet(1);
-		DMLZ prob = new DMLZ(50,-1, 1, fc, sc);
+		DMLZ prob = new DMLZ(1024,-1, 1, fc, sc);
 		
 		prob.setGtType("dynamic_t1"); //The type of time-related function used to control the change of the PS
 		prob.setHt1Type("static"); //The type of time-related function used to control the change of the PF
